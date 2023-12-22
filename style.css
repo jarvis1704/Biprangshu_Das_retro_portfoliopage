@@ -49,12 +49,6 @@ a{
   text-decoration: none;
   color: #000;
 }
-a>i{
-  transition: all 0.2s ease-in-out;
-}
-a>i:hover{
-  translate: scale(1.1);
-}
 #hobbycolumn{
   margin-top: 40px;
 }
