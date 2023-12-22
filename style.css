@@ -87,7 +87,8 @@ footer{
 
 @media(max-width: 425px){
   body{
-    overflow: x-hidden;
+    width: 450px;
+    overflow-x: hidden;
   }
   .navbar{
     padding: 10px;
