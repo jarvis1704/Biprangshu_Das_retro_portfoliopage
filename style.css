@@ -125,18 +125,6 @@ footer{
 }
 @media(max-width: 1024px){
   body{
-    width: 1075px;
-    overflow-x: hidden;
-  }
-  .navbar{
-    padding: 20px;
-  }
-  .profileimage{
-    left: 1000px;
-  }
-}
-@media(max-width: 1024px){
-  body{
     max-width: 100%;
     overflow-x: hidden;
   }
@@ -156,6 +144,10 @@ footer{
 
   .navhead, .profileimage {
     margin: 0 auto;
+  }
+  .profileimage{
+    left: 300px;
+    top: 20px;
   }
 
   .maincolomns {
