@@ -85,9 +85,9 @@ footer{
   font-weight: bold;
 }
 
-@media(max-width: 425px){
+@media(max-width: 475px){
   body{
-    width: 450px;
+    width: auto;
     overflow-x: hidden;
   }
   .navbar{
