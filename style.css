@@ -135,3 +135,42 @@ footer{
     left: 1000px;
   }
 }
+@media(max-width: 1024px){
+  body{
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .navbar{
+    padding: 20px;
+  }
+  .profileimage{
+    left: auto;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navhead, .profileimage {
+    margin: 0 auto;
+  }
+
+  .maincolomns {
+    flex-direction: column;
+  }
+
+  #leftcol {
+    margin-bottom: 20px;
+  }
+
+  .nes-container {
+    margin-bottom: 20px;
+  }
+
+  .col-md-4, .col-sm-4, .col-xs-12 {
+    padding: 10px;
+  }
+}
